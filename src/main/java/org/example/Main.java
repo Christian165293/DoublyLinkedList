@@ -1,4 +1,5 @@
 package org.example;
+
 // DLLNode class represents a node in a doubly linked list
 class DLLNode {
     int data; // Value stored in the node
@@ -108,6 +109,7 @@ class DoublyLinkedList {
         }
     }
 }
+
 public class Main {
     public static void main(String[] args) {
         DoublyLinkedList list = new DoublyLinkedList(null);
@@ -152,5 +154,6 @@ public class Main {
             System.out.print(current.data + " <-> ");
             current = current.next;
         }
-        System.out.println("null");    }
+        System.out.println("null");
+    }
 }
